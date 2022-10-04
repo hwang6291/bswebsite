@@ -27,7 +27,24 @@ body {
 
 .text-black {
   color: #000000 !important; }
-
+  
+.utext:before {
+  position: absolute;
+  height: 7px;
+  background-color: #B1D0E0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  }
+.utext_1 {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: #B1D0E0; /* Safari */  
+  text-decoration-color: #B1D0E0;  
+  text-decoration-style: solid;
+}
+  
 a {
   color: #1A374D;
   -webkit-transition: .3s all ease;
