@@ -53,9 +53,11 @@ $(function(){
         a.onclick = function () {
             //alert(WinName + "！")
             if(WinName == "Win32" & Winis64 == "x64") {
-                a.href = "https://github.com/hwang6291/bswebsite/raw/gh-pages/mgzapp_x64.exe";
+                //a.href = "https://github.com/hwang6291/bswebsite/raw/gh-pages/mgzapp_x64.exe";
+                a.href = "https://s3.hicloud.net.tw/testenv/download/wfaied/mgzapp_x64.exe";
             } else {
-                a.href = "https://github.com/hwang6291/bswebsite/raw/gh-pages/mgzapp_x32.exe";
+                //a.href = "https://github.com/hwang6291/bswebsite/raw/gh-pages/mgzapp_x32.exe";
+                a.href = "https://s3.hicloud.net.tw/testenv/download/wfaied/mgzapp_x32.exe";
             }
             return true;
         }        
